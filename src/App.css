@@ -1,0 +1,27 @@
+  
+  body{
+    background: linear-gradient(to left,rgb(236, 240, 241),rgb(236, 240, 241));
+  }
+
+  /* App.css */
+.main-content {
+  padding-bottom: 1px; /* Ajusta este valor según el tamaño de tu AppBarFoot */
+  /* padding-bottom: 60px;  */
+}
+
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.centerarriba{
+  font-family: 'Cormorant SC', sans-serif;
+  color: #212121;                                              
+  font-size: 22px;         
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);  
+  border-top: double#212121;       
+  border-bottom: double #212121;                     
+}

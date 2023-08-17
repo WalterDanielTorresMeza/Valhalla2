@@ -1,0 +1,52 @@
+/* ./style/barra.css */
+
+/* Estilos generales para la AppBar */
+.app-bar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Para manejar casos de pantalla pequeña */
+    background: #212121;
+    
+    
+  }
+  
+  .custom-icon {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+
+    
+  }
+  
+  /* Estilos para pantallas pequeñas (hasta 600px) */
+  @media (max-width: 600px) {
+    .app-bar-content {
+      flex-direction: column; /* Cambiar a una columna */
+      align-items: flex-start; /* Alineación a la izquierda */
+    }
+  
+    .button-container {
+      margin-top: 10px; /* Espacio entre la imagen y los botones */
+
+      
+    }
+  }
+
+  .letras{
+    font-family: 'Cormorant SC', sans-serif;
+    color: #FFFFFF;                                              
+    font-size: 15px;         
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+  }
+  
+  .letras-iconos{
+    font-family: 'Cormorant SC', sans-serif;
+    color: #FFFFFF;                                              
+    font-size: 32px;         
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+  }

@@ -1,0 +1,23 @@
+/* MultiActionAreaCardtres.css */
+
+.image-cardgm {
+    transition: transform 0.3s; /* Agrega una transición de transformación para un efecto suave */
+  }
+  
+  .image-cardgm:hover {
+    transform: scale(1.1); /* Cambia el tamaño de la tarjeta al pasar el cursor */
+  }
+  
+  .letrasg{
+    font-family: 'Cormorant SC', sans-serif;
+    color: #FFFFFF;                                              
+    font-size: 30px;         
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+  }
+
+  .letrasgd{
+    font-family: 'Cormorant SC', sans-serif;
+    color: #FFFFFF;                                              
+    font-size: 28px;         
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+  }

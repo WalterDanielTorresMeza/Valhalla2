@@ -1,0 +1,21 @@
+
+/* Agrega estilos para tus imágenes y diseño aquí */
+.toolbarg {
+  display: flex;
+  justify-content: space-between; /* Distribuye las imágenes de manera uniforme */
+  align-items: center;
+  background-color: #D4AC0D;
+}
+
+
+/* Aplica media queries para ajustar el diseño en pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  .toolbarg {
+    flex-direction: column; /* Cambia a distribución vertical en pantallas pequeñas */
+  }
+
+  .toolbarg img {
+    max-width: 80px; /* Reduce el tamaño de las imágenes en pantallas pequeñas */
+    margin: 5px 0; /* Ajusta el margen para separar las imágenes */
+  }
+}

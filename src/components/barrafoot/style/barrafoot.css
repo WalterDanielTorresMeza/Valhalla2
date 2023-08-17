@@ -1,0 +1,33 @@
+ .bottom-app-bar {
+    background-color: #212121; /* Cambia el color según tus preferencias */
+    top: auto; /* Para asegurarse de que esté en la parte inferior */
+    bottom: 0;
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px; /* Añade espacio alrededor de los íconos */
+    background-color: #212121;
+  }
+  
+  /* icon-styles.css */
+
+  /* icon-animations.css */
+
+/* Define una animación de balanceo */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Aplica la animación cuando el cursor está encima */
+.iconfot:hover {
+  animation: bounce 0.5s infinite;
+  color: #ff9900; /* Cambia el color a tu preferencia */
+}
+
